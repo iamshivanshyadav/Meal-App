@@ -1,0 +1,213 @@
+/* Reset margin, padding, and box-sizing for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling for the body */
+body {
+  background-image: url(background.jpg);
+  background-size: 100% auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Styling for the header section */
+header {
+  display: flex;
+  margin: 20px;
+}
+
+/* Styling for specific logo images */
+#hm,
+#rt {
+  height: 40px;
+}
+#fv {
+  height: 50px;
+}
+
+/* Styling for header links */
+header a {
+  text-decoration: none;
+  font-size: 30px;
+  margin: 10px;
+}
+
+/* Hover effect for header links */
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for the container div holding the search bar */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
+  margin-bottom: 25px;
+  max-width: 500px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styling for the input field inside the container */
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 10px;
+}
+
+/* Styling for the search button inside the container */
+button {
+  border: none;
+  outline: none;
+  padding: 16px 50px;
+  background: #ff5945;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+/* Styling for each meal container */
+.meal {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styling for meal images */
+.meal img {
+  width: 50%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+/* Styling for meal headings */
+.meal h2 {
+  margin: 10px 0;
+  font-size: 30px;
+  text-align: center;
+  color: black;
+}
+
+/* Styling for unordered list inside each meal container */
+.meal ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for list items inside the meal container */
+.meal li {
+  margin-bottom: 5px;
+}
+
+/* Styling for buttons inside each meal container */
+.meal button {
+  background-color: #fff;
+  border: none;
+  color: #ff5945;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect for buttons inside each meal container */
+.meal button:hover {
+  background-color: #ddd;
+}
+
+/* Styling for the description class */
+.description {
+  display: none;
+}
+
+/* Styling for the show class */
+.show {
+  display: block;
+}
+
+/* Styling for paragraphs */
+p {
+  font-size: 20px;
+  margin-left: 10px;
+  word-spacing: 3px;
+  line-height: 35px;
+  text-align: justify;
+  color: blue;
+  background-color: orange;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+/* Styling for video links */
+.video-link {
+  display: inline-block;
+  background-color: #ff5945;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect for the 'Watch Video' link */
+.video-link:hover {
+  background-color: #e5433d;
+}
+
+/* Styling for the footer section */
+footer {
+  padding: 20px;
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: 15px;
+  word-spacing: 3px;
+  line-height: 35px;
+  color: blue;
+}
+
+/* Styling for footer links */
+footer a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #301934;
+}
+
+/* Hover effect for footer links */
+footer a:hover {
+  color: #00008b;
+}
+
+/* Styling for the footer text indicating the creator */
+footer span {
+  background: transparent;
+  font-size: 20px;
+  color: #301934;
+}
+
+/* Styling for the content area (excluding header and footer) */
+main {
+  flex: 1;
+}
